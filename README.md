@@ -1,5 +1,5 @@
 # image-filtering
-FIltering an limage or a live stream video feed using OpenCV and C++ with CPU and GPU (using CUDA).  
+Filtering an image or a live stream video feed using OpenCV and C++ with CPU and GPU (using CUDA).  
 
 There exist two versions of this code. Both the versions perform Gaussian, Sobel, Magnitude, Blur+Quantization and Cartoonization filteringon a given image or a live feed video stream.  
 
@@ -38,12 +38,12 @@ The outputs after applying the filters to an input image are shown below.
     <img src="/images/magnitude.jpg" alt="Image 2" width="300" />
 </p>
 
-### Blur+Quantization Image
+### Blur+Quantized Image
 <p align='center'>
     <img src="/images/quantization.jpg" alt="Image 1" width="300" />
 </p>
 
-### Cartoonization Image
+### Cartoonized Image
 <p align='center'>
     <img src="/images/cartoonization.jpg" alt="Image 2" width="300" />
 </p>
