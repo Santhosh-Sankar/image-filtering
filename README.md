@@ -9,46 +9,42 @@ The first is the sequential CPU code and the second is the parallelized code usi
 ## Outputs
 The outputs after applying the filters to an input image are shown below. 
 
+### Raw Image
 <p align='center'>
     <img src="/images/dog.jpg" alt="Image src" width="500"/>
-    <figcaption>Raw Image</figcaption>
 </p>
 
 
-<div style="display: flex; flex-direction: row;">
-  <div style="text-align: center; width: 50%;">
-    <img src="/images/blur.jpg" alt="Image 1" width="200" />
-    <p>Blurred image</p>
-  </div>
-  <div style="text-align: center; width: 50%;">
-    <img src="/images/magnitude.jpg" alt="Image 2" width="200" />
-    <p>Magnitude Image</p>
-  </div>
-</div>
+### Blurred image
+<p align='center'>
+    <img src="/images/blur.jpg" alt="Image 1" width="300" />
+</p>
 
 
+### Sobel X Image
+<p align='center'>
+    <img src="/images/sobel_x.jpg" alt="Image 1" width="300" />
+</p>
 
 
-<div>
-  <figure>
-    <img src="/images/sobel_x.jpg" alt="Image 1" width="200" />
-    <figcaption>"Sobel X Image"</figcaption>
-  </figure>
-  <figure>
-    <img src="/images/sobel_y.jpg" alt="Image 2" width="200" />
-    <figcaption>"Sobel Y Image"</figcaption>
-  </figure>
-</div>
+### Sobel Y Image
+<p align='center'>
+    <img src="/images/sobel_y.jpg" alt="Image 2" width="300" />
+</p>
 
 
-<div>
-  <figure>
-    <img src="/images/quantization.jpg" alt="Image 1" width="200" />
-    <figcaption>"Quantized Image"</figcaption>
-  </figure>
-  <figure>
-    <img src="/images/cartoonization.jpg" alt="Image 2" width="200" />
-    <figcaption>"Cartoonized Image"</figcaption>
-  </figure>
-</div>
+### Magnitude Image
+<p align='center'>
+    <img src="/images/magnitude.jpg" alt="Image 2" width="300" />
+</p>
+
+### Blur+Quantization Image
+<p align='center'>
+    <img src="/images/quantization.jpg" alt="Image 1" width="300" />
+</p>
+
+### Cartoonization Image
+<p align='center'>
+    <img src="/images/cartoonization.jpg" alt="Image 2" width="300" />
+</p>
 
