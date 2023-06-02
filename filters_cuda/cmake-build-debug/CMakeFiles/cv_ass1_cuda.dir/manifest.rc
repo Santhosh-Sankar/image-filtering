@@ -1,0 +1,2 @@
+#pragma code_page(65001)
+1 /* CREATEPROCESS_MANIFEST_RESOURCE_ID */ 24 /* RT_MANIFEST */ "G:/clion_proj/cv_ass1_cuda/cmake-build-debug/CMakeFiles/cv_ass1_cuda.dir/embed.manifest"

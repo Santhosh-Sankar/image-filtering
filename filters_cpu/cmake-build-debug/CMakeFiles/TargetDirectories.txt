@@ -1,0 +1,3 @@
+G:/clion_proj/cv_ass1/cmake-build-debug/CMakeFiles/cv_ass1.dir
+G:/clion_proj/cv_ass1/cmake-build-debug/CMakeFiles/edit_cache.dir
+G:/clion_proj/cv_ass1/cmake-build-debug/CMakeFiles/rebuild_cache.dir

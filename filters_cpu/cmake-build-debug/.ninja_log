@@ -1,0 +1,14 @@
+# ninja log v5
+4	7463	7059738432169793	CMakeFiles/cv_ass1.dir/Display.cpp.obj	f6e3c75dbe4d7b6d
+2	3923	7060175896824821	CMakeFiles/cv_ass1.dir/main.cpp.obj	a9795161eb83aec9
+3496	5016	7060177407664358	cv_ass1.exe	397273b1bc52dd39
+1	3496	7060177394119381	CMakeFiles/cv_ass1.dir/filters.cpp.obj	720122cbc6141f74
+3	6848	7059717114199516	CMakeFiles/cv_ass1.dir/utils.cpp.obj	1aa6fa8e8499e740
+0	1181	7061349917910587	build.ninja	3783165a50b9ee82
+1	4931	7073496465615270	CMakeFiles/cv_ass1.dir/main.cpp.obj	7daf09f489d7fd72
+72	4944	7073496465874582	CMakeFiles/cv_ass1.dir/Display.cpp.obj	63aaa4eab3ac64b5
+152	4959	7073496466084012	CMakeFiles/cv_ass1.dir/filters.cpp.obj	92af1d4dd406ff02
+223	4973	7073496466203701	CMakeFiles/cv_ass1.dir/utils.cpp.obj	93610b2685ac7f44
+4974	7712	7073496492792718	cv_ass1.exe	e39ea1716bcffd7c
+2	3927	7073496628271967	CMakeFiles/cv_ass1.dir/main.cpp.obj	7daf09f489d7fd72
+3927	5440	7073496641641722	cv_ass1.exe	e39ea1716bcffd7c
