@@ -14,16 +14,19 @@ The outputs after applying the filters to an input image are shown below.
     <figcaption>Raw Image</figcaption>
 </p>
 
-<div>
-  <figure>
+
+<div style="display: flex; flex-direction: row;">
+  <div style="text-align: center; width: 50%;">
     <img src="/images/blur.jpg" alt="Image 1" width="200" />
-    <figcaption>Blurred image</figcaption>
-  </figure>
-  <figure>
+    <p>Blurred image</p>
+  </div>
+  <div style="text-align: center; width: 50%;">
     <img src="/images/magnitude.jpg" alt="Image 2" width="200" />
-    <figcaption>Magnitude Image</figcaption>
-  </figure>
+    <p>Magnitude Image</p>
+  </div>
 </div>
+
+
 
 
 <div>
