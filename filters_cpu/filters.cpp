@@ -177,7 +177,7 @@ void filters(cv::Mat &src, cv::Mat &filtered_src, std::vector<float> &filter1, s
             cv::Mat magnitude, quant;
             magnitude = cv::Mat::zeros(src.size(), src.type());
             quant = cv::Mat::zeros(src.size(), src.type());
-            int threshold;
+            int threshold, flag=1;
 
             if(not(filter_init)) {
                 std::cout << "Enter threshold: ";
@@ -202,10 +202,21 @@ void filters(cv::Mat &src, cv::Mat &filtered_src, std::vector<float> &filter1, s
                 for (int j = 0; j < src.cols; j++) {
 
                     for(int k=0;k<3;k++)
+                        if(mptr[j][k] > char(threshold))
+                        {
+                            flag=0;
+                            break;
+                        }
+
+                    if (flag == 0)
                     {
-                        if(mptr[j][k] > char(10))
+                        flag = 1;
+                        for(int k=0;k<3;k++)
                             dstn_ptr[j][k] = char(0);
-                        else
+                    }
+                    else
+                    {
+                        for(int k=0;k<3;k++)
                             dstn_ptr[j][k] = qptr[j][k];
                     }
                 }
