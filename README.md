@@ -11,7 +11,7 @@ The outputs after applying the filters to an input image are shown below.
 
 ### Raw Image
 <p align='center'>
-    <img src="/images/dog.jpg" alt="Image src" width="500"/>
+    <img src="/images/house.jpg" alt="Image src" width="500"/>
 </p>
 
 
